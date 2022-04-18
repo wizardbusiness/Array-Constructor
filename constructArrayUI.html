@@ -8,14 +8,28 @@
   </head>
   <body>
     <h1>Array Constructor</h1>
-    <p>Description:<br> Generates arrays of random whole numbers between -100 and 100</p>
-    <em>Enter the length of the array you would like to construct. </em>
-    <input id="array-length" type="number">
-    <em><br>Enter the range of the array</em>
-    <input id="range" type="number">
-    <em><br>Enter decimal place of output elements</em>
-    <input id="decimal" type="number">
-    <button class="create-array">Generate Array</button>
-    <div id="display-array"></div>
+    <div>
+      <div>Description:<br> Generates an array of random positive and negative numbers.
+        Can be used for testing, or whatever the heck else you want.</div>
+      <div class="info">How to use:
+        <ul>
+          <li> Use the <em>length</em> value to specify how many elements the array will contain.</li>
+          <li> Use the <em>range</em> value to specify the range of possible values. <i>Ex:
+            a range of 100 will generate numbers between -100 and 100.</i></li>
+          <li> Use the <em>decimal</em> value to specify the number of decimal places for
+            each generated value.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="input">
+      <em>length: </em>
+      <input id="array-length" type="number">
+      <em>range: </em>
+      <input id="range" type="number">
+      <em>decimals: </em>
+      <input id="decimal" type="number">
+      <button class="create-array">Create Array</button>
+      <div id="display-array"></div>
+    </div>
   </body>
 </html>
