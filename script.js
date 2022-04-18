@@ -2,8 +2,8 @@
 const constructArray = (arrayLength, range, dec) => {
     arrayLength = document.querySelector('#array-length').value;
     range = document.querySelector('#range').value;
+    btn = document.querySelector('#decimal').value;
     const output = [];
-    dec = 1;
     while (arrayLength > 0) {
       let rndNum = Math.random();
       const multiplier = Math.random();
