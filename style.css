@@ -25,7 +25,7 @@ body {
   padding: 0px 38px 15px 38px;
   margin: 15px;
   background: linear-gradient(#ccc 5%, transparent 1%),
-    linear-gradient(90deg, #ddd 5%, transparent 1%)1px 0, #f0faee;
+    linear-gradient(90deg, #ddd 5%, transparent 1%)1px 0, #e8ffe3;
   background-size: 22px 22px;
   display: flex;
   justify-content: center;
@@ -35,6 +35,8 @@ body {
 
 h1 {
   font-size: 70px;
+  color: #5b7283;
+  /* filter: drop-shadow(3px 3px 1px #a093c3) */
 }
 
 #banner-align {
