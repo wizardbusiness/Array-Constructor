@@ -24,8 +24,8 @@ body {
   width: 900px;
   padding: 0px 10px 10px 10px;
   margin: 15px;
-  background: linear-gradient(#ccc 5%, transparent 1%),
-    linear-gradient(90deg, #ddd 5%, transparent 1%)1px 0, #e8ffe3;
+  background: linear-gradient(#ee97e1 5%, transparent 10%),
+    linear-gradient(90deg, #ee97e1 5%, transparent 10%)1px 0, #b0eee2;
   background-size: 22px 22px;
   display: flex;
   justify-content: center;
@@ -35,7 +35,11 @@ body {
 
 h1 {
   font-size: 70px;
-  color: #5b7283;
+  color: #f48fb1;
+  text-shadow:
+               -4px 4px #7e57c2,
+               -8px 8px #2196f3,
+               -12px 12px #26c6da;
   /* filter: drop-shadow(3px 3px 1px #a093c3) */
 }
 
