@@ -1,22 +1,26 @@
+
 body {
   background-color: #fdf2e9;
   font-family: monospace;
   display: flex;
   align-items: center;
-  justify-content: center
+  justify-content: center;
+  /* flex-shrink: 1 */
 }
 
 #content {
-  height: 1000px;
-  width: auto;
+  min-height: 1000px;
   padding: 5px 30px 15px 30px;
   background-color: white;
+  filter: drop-shadow(5px 5px 3px #bbb);
   display: flex;
   flex-direction: column;
   align-content: center;
+  /* flex-grow: 1; */
 }
 
 #banner {
+  width: 900px;
   margin-bottom: 15px;
   background: linear-gradient(#eee 5%, transparent 1%),
     linear-gradient(90deg, #eee 5%, transparent 1%)1px 0, #fff;
@@ -24,16 +28,28 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-shrink: 1;
   filter: drop-shadow(7px 7px 3px #bbb);
 }
 
 h1 {
-  font-size: 50px
+  font-size: 70px;
 }
 
 #banner-align {
   display:flex;
   align-items: center;
   justify-content: center;
+}
 
+.info {
+  font-family: sans-serif;
+}
+
+#description {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#instructions {
 }
