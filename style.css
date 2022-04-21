@@ -32,3 +32,9 @@ h1 {
   flex-direction: column;
   align-content: center;
 }
+
+#banner-align {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
