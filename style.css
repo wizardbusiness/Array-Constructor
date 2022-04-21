@@ -3,7 +3,7 @@ body {
   font-family: monospace;
 }
 
-#header-box {
+#banner {
   height: 100px;
   width: 500px;
   background: linear-gradient(#eee 5%, transparent 1%),
