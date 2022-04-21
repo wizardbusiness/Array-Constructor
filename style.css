@@ -1,20 +1,29 @@
 body {
   background-color: #fdf2e9;
   font-family: monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center
 }
 
 #banner {
   height: 100px;
-  width: 500px;
+  width: 488px;
   background: linear-gradient(#eee 5%, transparent 1%),
     linear-gradient(90deg, #eee 5%, transparent 1%)1px 0, #fff;
   background-size: 22px 22px;
   display: flex;
   justify-content: center;
   align-items: center;
+  filter: drop-shadow(7px 7px 3px #bbb);
 
 }
 
 h1 {
   font-size: 50px
+}
+
+#text-body {
+  width: auto;
+  background-color: white
 }
