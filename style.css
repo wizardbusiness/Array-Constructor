@@ -11,7 +11,7 @@ body {
 #content {
   min-height: 1000px;
   padding: 5px 30px 15px 30px;
-  background-color: #fdf2e9;
+  background-color: #fad8c1;
   filter: drop-shadow(5px 5px 3px #bbb);
   display: flex;
   flex-direction: column;
@@ -52,7 +52,6 @@ h1 {
 }
 
 #instructions {
-  background-color: #eee;
   padding: 10px;
 }
 
