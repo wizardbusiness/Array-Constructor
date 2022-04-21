@@ -52,7 +52,8 @@ h1 {
 }
 
 #instructions {
-
+  background-color: #eee;
+  padding: 10px;
 }
 
 ul {
