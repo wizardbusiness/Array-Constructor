@@ -106,8 +106,9 @@ input[type=number] {
 }
 
 #descriptors {
+  padding-left: 5px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: flex-end
+  align-items: flex-start;
 }
