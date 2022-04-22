@@ -73,10 +73,12 @@ ul {
 }
 
 .create-array {
+  height: 30px;
+  width: 150px;
   margin-top: 15px;
+  font-size: 17px;
   background-color: #eeceff;
-  height: 50px;
-  width: 100px;
+
 }
 
 input {
