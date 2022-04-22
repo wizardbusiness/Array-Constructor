@@ -107,14 +107,16 @@ input[type=number] {
   align-items: flex-start;
 }
 
-
-.create-array {
+button {
   height: 30px;
   width: 150px;
   margin-top: 15px;
   font-size: 17px;
   background-color: #eeceff;
+}
 
+.change-color {
+  background-color: #b0eee2;
 }
 
 #display-array {
