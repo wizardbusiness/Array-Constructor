@@ -113,11 +113,14 @@ button {
   background-color: #eeceff;
 }
 
-#display-array {
+
+.display-array {
   font-size: 20px;
   max-width: 900px;
   margin-top: 5px;
   padding: 10px;
   background-color: #effcf9;
   box-shadow: 2px 2px 0px 0px #b69ea8 inset;
+  display: none;
+  visibility: hidden;
 }
