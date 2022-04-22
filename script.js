@@ -22,11 +22,16 @@ const constructArray = (arrayLength, range, dec) => {
 
 const btn = document.querySelector('button');
 
-const displayArray = document.querySelector('#display-array');
+const displayArray = document.querySelector('.display-array');
+
 
 btn.addEventListener('mousedown', () => {
   btn.classList.toggle('change-color');
   displayArray.textContent = `[${constructArray()}]`;
 });
-
 btn.addEventListener('mouseup', () => btn.classList.toggle('change-color'));
+
+btn.addEventListener('mousedown', () => {
+  displayArray.style.display = 'block';
+  displayArray.style.visibility = 'visible';
+});
