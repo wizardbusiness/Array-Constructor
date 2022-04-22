@@ -68,8 +68,15 @@ ul {
   padding-left: 10px;
   display: flex;
   flex-direction: column;
-  align-items: space-between;
+  /* align-items: space-between; */
   gap: 10px;
+}
+
+.create-array {
+  margin-top: 15px;
+  background-color: #eeceff;
+  height: 50px;
+  width: 100px;
 }
 
 input {
@@ -78,7 +85,7 @@ input {
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-  -webkit-appearancee:nonne;
+  -webkit-appearancee:none;
   margin: 0;
 }
 
