@@ -87,13 +87,17 @@ input[type=number] {
 }
 
 #inputs {
-  height: 100px;
-  max-width: 200px;
+  /* height: 100px; */
+  /* max-width: 200px; */
   display: flex;
   flex: 1;
 }
 
-
+.input-fields {
+  display: flex;
+  align-items: flex-end;
+  gap: 7px;
+}
 
 button {
   height: 30px;
