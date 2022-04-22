@@ -74,6 +74,7 @@ ul {
 
 input {
   font-size: 16px;
+  background-color: #effcf9;
 }
 
 input::-webkit-outer-spin-button,
