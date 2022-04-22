@@ -20,9 +20,13 @@ const constructArray = (arrayLength, range, dec) => {
     return output;
   }
 
-const btn = document.querySelector('.create-array');
+const btn = document.querySelector('button');
+
 const displayArray = document.querySelector('#display-array');
 
 btn.addEventListener('click', () => {
-  displayArray.textContent = `[${constructArray()}]`
+  displayArray.textContent = `[${constructArray()}]`;
 });
+
+btn.addEventListener('mousedown', () => btn.classList.toggle('change-color'));
+btn.addEventListener('mouseup', () => btn.classList.toggle('change-color'));
