@@ -90,13 +90,14 @@ input[type=number] {
   /* height: 100px; */
   /* max-width: 200px; */
   display: flex;
-  flex: 1;
+  flex-direction: column;
+  gap: 5px;
 }
 
 .input-fields {
   display: flex;
   align-items: flex-end;
-  gap: 7px;
+  gap: 5px;
 }
 
 button {
