@@ -72,8 +72,29 @@ ul {
   gap: 10px;
 }
 
+input {
+  font-size: 16px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearancee:nonne;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
 #display-array {
   max-width: 900px;
   margin-top: 5px;
   background-color: #cef9ff;
+}
+
+.input {
+  max-width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
 }
