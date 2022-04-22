@@ -52,6 +52,8 @@ h1 {
 
 .info {
   font-family: sans-serif;
+  font-size: 20px;
+  color: #5e30af;
 }
 
 #description {
@@ -74,6 +76,8 @@ ul {
 
 input {
   font-size: 16px;
+  font-family: monospace;
+  color: #007773;
   background-color: #effcf9;
 }
 
@@ -101,11 +105,16 @@ input[type=number] {
   gap: 5px;
 }
 
+em {
+  font-size: 17px;
+  font-family: sans-serif;
+}
 button {
   height: 30px;
   width: 150px;
+  color: #009479;
   margin-top: 15px;
-  font-size: 17px;
+  font-size: 18px;
   background-color: #b0eee2;
 }
 
@@ -116,6 +125,7 @@ button {
 
 .display-array {
   font-size: 20px;
+  color: #009479;
   max-width: 900px;
   margin-top: 5px;
   padding: 10px;
