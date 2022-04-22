@@ -86,26 +86,13 @@ input[type=number] {
   -moz-appearance: textfield;
 }
 
-.input {
+.inputs {
   height: 100px;
   max-width: 200px;
   display: flex;
   flex: 1;
 }
 
-#input-fields {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-#descriptors {
-  padding-left: 5px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-}
 
 button {
   height: 30px;
