@@ -24,9 +24,9 @@ const btn = document.querySelector('button');
 
 const displayArray = document.querySelector('#display-array');
 
-btn.addEventListener('click', () => {
+btn.addEventListener('mousedown', () => {
+  btn.classList.toggle('change-color');
   displayArray.textContent = `[${constructArray()}]`;
 });
 
-btn.addEventListener('mousedown', () => btn.classList.toggle('change-color'));
 btn.addEventListener('mouseup', () => btn.classList.toggle('change-color'));
