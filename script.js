@@ -32,6 +32,6 @@ btn.addEventListener('mousedown', () => {
 btn.addEventListener('mouseup', () => btn.classList.toggle('change-color'));
 
 btn.addEventListener('mousedown', () => {
-  displayArray.style.display = 'block';
+  displayArray.style.display = 'flex';
   displayArray.style.visibility = 'visible';
 });
