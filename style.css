@@ -9,6 +9,10 @@ body {
   /* flex-shrink: 1 */
 }
 
+#align-banner-and-content {
+
+}
+
 #banner {
   padding: 10px 10px 10px 10px;
   margin-bottom: 10px;
@@ -126,7 +130,7 @@ button {
 .display-array {
   font-size: 20px;
   color: #009479;
-  max-width: 900px;
+  max-width: 1125px;
   margin-top: 5px;
   padding: 10px;
   background-color: #effcf9;
