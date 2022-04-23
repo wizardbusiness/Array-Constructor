@@ -9,4 +9,6 @@ V4- Cleaner/styled UI. Able to include or exclude negative numbers.
 
 Planned features:
 
--Fancier styling. 
+-copy button.
+
+-Fancier styling.
