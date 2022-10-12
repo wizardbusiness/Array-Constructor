@@ -19,13 +19,14 @@ const checkCheckBox = () => {
 
 const check = checkCheckBox();
 
-checkbox.addEventListener('click', (e) => {
+checkbox.addEventListener('click', () => {
   check();
 });
 
 const constructArray = (arrayLength, range, dec, incNeg = false) => {
   // reset array every time function is invoked.
-    displayArray.textContent = '[';
+    
+    const outputArray = [];
     arrayLength = document.querySelector('#array-length').value;
     range = document.querySelector('#range').value;
     dec = document.querySelector('#decimal').value;
@@ -36,30 +37,39 @@ const constructArray = (arrayLength, range, dec, incNeg = false) => {
       const multiplier = Math.random();
       if (incNeg === false) {
         rndNum = (rndNum * range * multiplier).toFixed(dec);
-        if (arrayLength === 1) displayArray.textContent += rndNum + ']';
-        else if (arrayLength > 1) displayArray.textContent += rndNum + ', ';
-      }
-      else if (incNeg === true && rndNum <= .5) {
+      } else if (incNeg === true && rndNum <= .5) {
         rndNum = (rndNum * -range * multiplier).toFixed(dec);
-        if (arrayLength === 1) displayArray.textContent += rndNum + ']';
-        else if (arrayLength > 1) displayArray.textContent += rndNum + ', ';
       } else if (incNeg === true && rndNum > .5) {
         rndNum = (rndNum * range * multiplier).toFixed(dec);
-        if (arrayLength === 1) displayArray.textContent += rndNum + ']';
-        else if (arrayLength > 1) displayArray.textContent += rndNum + ', ';
       }
+      outputArray.push(rndNum)
       arrayLength--;
     }
-    return
+
+    // if array is more than 500 elements, return the whole result, but only display the first 500.
+    let arrayText;
+    outputArray.length > 500 ? arrayText = '[' + outputArray.slice(0, 500).join(', ') + '...' : arrayText = '[' + outputArray + ']'
+    displayArray.textContent = arrayText;
+    return outputArray;
   }
 
 const btn = document.querySelector('button');
+btn.id = 'create-array-btn'
 
 btn.addEventListener('mouseup', () => btn.classList.toggle('change-color'));
 btn.addEventListener('mousedown', () => {
   constructArray();
   btn.classList.toggle('change-color');
-  displayArray.style.display = 'flex';
-  displayArray.style.flexWrap = 'wrap';
   displayArray.style.visibility = 'visible';
+  const btnContainer = document.createElement('div')
+  btnContainer.id = 'btn-container';
+  displayArray.prepend(btnContainer)
+  const copyArray = document.createElement('button')
+  copyArray.textContent = 'Copy';
+  copyArray.id = 'copy-btn';
+  btnContainer.appendChild(copyArray);
 });
+
+
+
+

@@ -109,7 +109,7 @@ code {
   color: #46a18f;
 }
 
-button {
+#create-array-btn {
   height: 30px;
   width: 150px;
   color: #009479;
@@ -122,6 +122,19 @@ button {
   background-color: #eeceff;
 }
 
+#btn-container {
+  display: flex;
+  justify-content: end;
+}
+
+#copy-btn {
+  height: 30px;
+  color: #009479;
+  margin-bottom: 5px;
+  font-size: 18px;
+  background-color: #b0eee2;
+}
+
 .display-array {
   font-size: 20px;
   color: #009479;
@@ -130,6 +143,7 @@ button {
   padding: 10px;
   background-color: #effcf9;
   box-shadow: 2px 2px 0px 0px #b69ea8 inset;
-  display: none;
+  display: inline-block;
+  word-wrap: break-word;
   visibility: hidden;
 }
