@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Array constructor</title>
+    <meta charset="utf-8"/>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div id="align-banner-and-content">
+    <div id="banner-align">
+      <div id="banner">
+        <h1>Array Constructor</h1>
+      </div>
+    </div>
+    <div id="content">
+      <div>
+      <div>
+        <div class="info">
+          <div id="description">Generate arrays of random positive and negative numbers.</div>
+          <div id="instructions">
+            Instructions:
+            <ul>
+              <li> - Use the <code>length</code> value to specify how many elements the array will contain.</li>
+              <li> - Use the <code>range</code> value to specify the range of possible values. <i>Ex:
+                a range of 100 will generate numbers between -100 and 100.</i></li>
+              <li> - Use the <code>decimal</code> value to specify the number of decimal places for
+                each generated value.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="create-array">
+        <div id="inputs">
+          <div class="input-fields">
+            <input id="array-length" type="number" value="100">
+            <code>length</code>
+          </div>
+            <div class="input-fields">
+              <input id="range" type="number" value="100">
+              <code>range</code>
+            </div>
+            <div class="input-fields">
+              <input id="decimal" type="number" value="0">
+              <code>decimals</code>
+            </div>
+            <div class="input-fields">
+              <input id="toggle-neg-nums" type="checkbox" value="off">
+              <code>include negative numbers.</code>
+            </div>
+        </div>
+        <button class="change-color">Create Array</button>
+      </div>
+        <div class="display-array">
+        </div>
+    </div>
+    </div>
+  </div>
+  </body>
+</html>

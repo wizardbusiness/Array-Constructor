@@ -5,6 +5,10 @@ generate random integers from -1000 to 1000.
 
 V3- Able to specify any amount of decimal places for generated numbers.
 
+V4- Cleaner/styled UI. Able to include or exclude negative numbers.
+
 Planned features:
 
--Cleaner UI with css styling.
+-copy button.
+
+-Fancier styling.
